@@ -16,7 +16,7 @@ export default function MainHeader() {
             alt="A plate with food on it"
             priority
           />
-          Next Level Food
+          Foodies Food
         </Link>
         <nav className={classes.nav}>
           <ul>

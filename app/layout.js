@@ -1,4 +1,4 @@
-import MainHeader from './components/main-header';
+import MainHeader from './components/mainHeader/main-header';
 
 export const metadata = {
   title: 'NextLevel Food',
