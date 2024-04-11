@@ -2,9 +2,10 @@ import classes from './page.module.css';
 import '../../globals.css';
 import ImagePicker from '@/app/components/images/image-picker';
 import { shareMeal } from '@/lib/actions';
+import MealsFormSubmit from '@/app/components/meals/meal-form-submit';
 
 export default function ShareMealPage() {
-  
+
   return (
     <>
       <header className={classes.header}>
@@ -42,9 +43,9 @@ export default function ShareMealPage() {
               required
             ></textarea>
           </p>
-          <ImagePicker label='Your Image' name='image'/>
+          <ImagePicker label="Your Image" name="image" />
           <p className={classes.actions}>
-            <button type="submit">Share Meal</button>
+           <MealsFormSubmit/>
           </p>
         </form>
       </main>
